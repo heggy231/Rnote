@@ -1,3 +1,25 @@
+
+| rm(list=ls()) to clear your workspace.
+
+You can exit swirl and return to the R prompt (>) at
+| any time by pressing the Esc key. If you are already
+| at the prompt, type bye() to exit and save your
+| progress. When you exit properly, you'll see a short
+| message letting you know you've done so.
+
+| When you are at the R prompt (>):
+| -- Typing skip() allows you to skip the current
+| question.
+| -- Typing play() lets you experiment with R on your
+| own; swirl will ignore what you do...
+| -- UNTIL you type nxt() which will regain swirl's
+| attention.
+| -- Typing bye() causes swirl to exit. Your progress
+| will be saved.
+| -- Typing main() returns you to swirl's main menu.
+| -- Typing info() displays these options again.
+
+
 Swirl R Note
 1. to begin swirl
 >install.packages("swirl")
@@ -24,7 +46,7 @@ Upon completing each lesson, swirl will ask for your Coursera credentials:
 
     Course ID: rprog-034
     Submission login (email): The email address associated with your Coursera account
-    Submission password: GUSZQaCsTu #this is unique for each student
+    Submission password: ****** #this is unique for each student
 
 Once you've entered and confirmed this information, swirl will attempt to notify Coursera automatically. If something goes wrong with automatic submission, you'll have the option to retry or submit manually.
 
@@ -42,3 +64,11 @@ Hi! I see that you have some variables
 | rm(list=ls()) to clear your workspace.
 
 | Type swirl() when you are ready to begin
+
+How to open a xml format file:
+in window computer
+save link as on your desktop
+double click it 
+it will open up your default browser 
+it will look very organized rather than the big glob you see
+
