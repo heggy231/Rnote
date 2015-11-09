@@ -1,0 +1,44 @@
+Swirl R Note
+1. to begin swirl
+>install.packages("swirl")
+>library(swirl) or require(swirl)
+#require will stop if error, library will install whatever with no error
+>swirl()
+#run swirl
+
+2. Install the R Programming course
+
+swirl offers a variety of interactive courses, but for our purposes, you want the one called R Programming. If this is your first time using swirl, it will prompt you to install the R Programming course automatically. If you've used swirl in the past, you will need to type the following from the R prompt:
+
+>install_from_swirl("R Programming")
+
+4. Complete the lessons
+
+There are 15 lessons in the R Programming course covering a variety of important topics.
+
+Each completed lesson is worth one extra credit point. However, the maximum number of points you may earn for the assignment is capped at 5. Regardless, these lessons will give you valuable practice and you are encouraged to complete as many as possible. If you skip() more than one question in a lesson, you will not receive credit for that lesson.
+
+5. Get extra credit for your work!
+
+Upon completing each lesson, swirl will ask for your Coursera credentials:
+
+    Course ID: rprog-034
+    Submission login (email): The email address associated with your Coursera account
+    Submission password: GUSZQaCsTu #this is unique for each student
+
+Once you've entered and confirmed this information, swirl will attempt to notify Coursera automatically. If something goes wrong with automatic submission, you'll have the option to retry or submit manually.
+
+
+
+
+
+Hi! I see that you have some variables
+| saved in your workspace. To keep things
+| running smoothly, I recommend you clean up
+| before starting swirl.
+
+| Type ls() to see a list of the variables
+| in your workspace. Then, type
+| rm(list=ls()) to clear your workspace.
+
+| Type swirl() when you are ready to begin
