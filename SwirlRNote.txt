@@ -4,7 +4,7 @@ Swirl R Note
 >library(swirl) or require(swirl)
 #require will stop if error, library will install whatever with no error
 >swirl()
-#run swirl
+#run swirl functions
 
 2. Install the R Programming course
 
